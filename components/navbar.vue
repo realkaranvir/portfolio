@@ -31,7 +31,7 @@
     computed: {
       backgroundStyle() {
         // Adjust the opacity based on the scroll position
-        const opacity = this.scrollY > 100 ? 0.8 : 0 // Change opacity after 100px scroll
+        const opacity = this.scrollY > 50 ? 0.8 : 0
         return {
           backgroundColor: `rgba(0, 120, 148, ${opacity})`,
         }
