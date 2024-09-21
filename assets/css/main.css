@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 body {
-    @apply bg-gray-900 text-neon-blue font-mono;
+    @apply bg-gradient-to-r from-blue-200 to-red-200 font-mono;
+    background-size: 200% 200%;
+    animation: gradient-animation 10s ease infinite;
 }

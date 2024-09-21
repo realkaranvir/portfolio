@@ -1,12 +1,10 @@
 <template>
-  <div>
-    <p>bruh</p>
-  </div>
+  <div></div>
 </template>
 
 <script>
   export default {
-    name: "AboutPage",
+    name: "FoodFunds",
   }
 </script>
 
