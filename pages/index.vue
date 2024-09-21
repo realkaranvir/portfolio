@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col items-center text-center p-10">
-    <h1 class="text-8xl mb-10">H e l l o .</h1>
+    <h1 class="text-8xl mb-10">Hello.</h1>
     <h2 class="text-4xl mb-20">
       I'm Karan, a software engineer studying at <br />
       <span class="text-green-800">Cal Poly SLO</span>.
