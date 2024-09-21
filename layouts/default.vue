@@ -2,7 +2,7 @@
   <div class="flex h-screen lg:flex-col">
     <Sidebar class="hidden lg:block" />
     <Navbar class="block lg:hidden" />
-    <div class="flex-1 lg:ml-64 lg:mt-0 ml-0 mt-12">
+    <div class="flex-1 lg:ml-64 lg:mt-0 ml-0 mt-16">
       <transition name="fade-in-out" mode="out-in">
         <NuxtPage />
       </transition>

@@ -1,8 +1,8 @@
 <template>
-  <div class="fixed top-0 w-screen p-8 flex justify-center">
+  <div class="fixed top-0 w-screen p-2 pt-8 justify-center">
     <nav
       :style="backgroundStyle"
-      class="flex-1 text-white p-2 rounded-3xl transition-bg max-w-xl"
+      class="flex-1 text-white p-2 rounded-3xl transition-bg"
     >
       <ul class="flex justify-around">
         <li @click="scrollToTop">
@@ -31,7 +31,7 @@
     computed: {
       backgroundStyle() {
         // Adjust the opacity based on the scroll position
-        const opacity = this.scrollY > 100 ? 1 : 0 // Change opacity after 100px scroll
+        const opacity = this.scrollY > 100 ? 0.8 : 0 // Change opacity after 100px scroll
         return {
           backgroundColor: `rgba(0, 120, 148, ${opacity})`,
         }
