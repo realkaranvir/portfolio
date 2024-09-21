@@ -75,6 +75,7 @@
       ChevronRightIcon,
     },
     setup() {
+      // For the project links in sidebar
       const isProjectsOpen = ref(false)
 
       function toggleProjects() {
