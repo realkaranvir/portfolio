@@ -11,4 +11,8 @@ export default defineNuxtConfig({
   },
 
   compatibilityDate: "2024-09-20",
+  app: {
+    NUXT_APP_BASE_URL: "/portfolio",
+    buildAssetsDir: "assetsForBuild",
+  },
 })
