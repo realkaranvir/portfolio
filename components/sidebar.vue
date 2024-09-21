@@ -54,11 +54,8 @@
               <router-link to="/tar" class="block hover:text-blue-600">
                 Tar.c
               </router-link>
-              <router-link
-                to="/thisPortfolio"
-                class="block hover:text-blue-800"
-              >
-                ThisPortfolio.vue
+              <router-link to="/portfolio" class="block hover:text-blue-800">
+                Portfolio.vue
               </router-link>
             </div>
           </transition>

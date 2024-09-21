@@ -4,7 +4,7 @@
 
 <script>
   export default {
-    name: "ThisPortfolio",
+    name: "Portfolio",
   }
 </script>
 
