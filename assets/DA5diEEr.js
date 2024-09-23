@@ -1,1 +1,0 @@
-import{v as s,x as t,q as a,t as c}from"./Dmj49ti_.js";const r={class:"flex justify-center items-center h-screen"},u={__name:"resume",setup(n){const e=`${a().app.baseURL}resume.pdf`;return(i,m)=>(c(),s("div",r,[t("iframe",{src:e,class:"h-full",frameborder:"0"})]))}};export{u as default};
