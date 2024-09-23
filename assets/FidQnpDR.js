@@ -1,0 +1,1 @@
+import{_ as e,v as t,t as o}from"./deDTBgEK.js";const s={name:"Portfolio"},r={class:"flex flex-col items-center text-center"};function c(n,a,_,f,l,i){return o(),t("div",r,"In Progress")}const d=e(s,[["render",c]]);export{d as default};

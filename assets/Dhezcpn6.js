@@ -1,1 +1,0 @@
-import{_ as s,v as r,x as t,t as c}from"./COwimq52.js";const n={},o={class:"flex justify-center items-center h-screen"};function a(f,e){return c(),r("div",o,e[0]||(e[0]=[t("iframe",{src:"/resume.pdf",class:"w-full h-full",frameborder:"0"},null,-1)]))}const m=s(n,[["render",a]]);export{m as default};
