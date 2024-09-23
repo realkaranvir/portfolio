@@ -1,0 +1,1 @@
+import{_ as e,v as t,t as o}from"./Dmj49ti_.js";const s={name:"AboutPage"},c={class:"flex flex-col items-center text-center"};function n(r,a,_,f,l,p){return o(),t("div",c,"In Progress")}const d=e(s,[["render",n]]);export{d as default};

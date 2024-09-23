@@ -1,1 +1,0 @@
-import{_ as s,v as t,x as a,q as c,t as r}from"./bp02WAa3.js";const o={class:"flex justify-center items-center h-screen"},n={__name:"resume",setup(f){const e=`${c().app.baseURL}resume.pdf`;return(p,i)=>(r(),t("div",o,[a("iframe",{src:e,class:"pdf-iframe",frameborder:"0"})]))}},u=s(n,[["__scopeId","data-v-2d7f7c28"]]);export{u as default};
